@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "module": "esnext",
-    "target": "esnext",
+    "target": "es2015",
     "sourceMap": false,
     "moduleResolution": "Node",
     "skipLibCheck": true,
@@ -17,7 +17,6 @@
     "lib": ["ESNext", "dom", "dom.iterable"]
   },
   "include": [
-    "src/**/*.vue",
     "src/**/*.ts",
     "src/**/*.tsx",
     "types/**/*.d.ts",
